@@ -11,7 +11,7 @@ import CartPage from './pages/CartPage'
 import ProductsPage from './pages/ProductsPage'
 import CheckoutPage from './pages/CheckOutPage'
 import { AuthProvider } from './context/AuthContext'
-import adminProtectedRoute from './admin/ProtectedRoute'
+import AdminProtectedRoute from "./Admin/ProtectedRoute"
 // admin Components
 import AdminLayout from './admin/Layout/adminLayout'
 import DashboardPage from './admin/Dashboard'
@@ -54,9 +54,9 @@ function App() {
             
             {/* admin Routes with Layout */}
             <Route path='/admin' element={
-              <adminProtectedRoute>
+              <AdminProtectedRoute>
                 <AdminLayout />
-              </adminProtectedRoute>
+              </AdminProtectedRoute>
             }>
               <Route index element={<Navigate to="dashboard" replace />} />
               <Route path='dashboard' element={<DashboardPage />} />

@@ -3,7 +3,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
-const adminProtectedRoute = ({ children }) => {
+const AdminProtectedRoute = ({ children }) => {
   const { isAuthenticated, isadmin, loading } = useAuth();
 
   if (loading) {
@@ -28,4 +28,4 @@ const adminProtectedRoute = ({ children }) => {
   return children;
 };
 
-export default adminProtectedRoute;
+export default AdminProtectedRoute;

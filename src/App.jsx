@@ -11,13 +11,13 @@ import CartPage from './pages/CartPage'
 import ProductsPage from './pages/ProductsPage'
 import CheckoutPage from './pages/CheckOutPage'
 import { AuthProvider } from './context/AuthContext'
-import AdminProtectedRoute from "./Admin/ProtectedRoute"
+import AdminProtectedRoute from "./admin/ProtectedRoute"
 // admin Components
-import AdminLayout from './admin/Layout/adminLayout'
+import AdminLayout from './admin/layout/adminLayout'
 import DashboardPage from './admin/Dashboard'
 import ProductsPageadmin from './admin/Products'
-import OrdersPage from './admin/Orders'
 import UsersPage from './admin/Users'
+import OrdersPage from './admin/Orders'
 import ServicesPage from './admin/ServicesPage'
 import NotFoundPage from './components/NotFoundPage'
 // User Orders Module

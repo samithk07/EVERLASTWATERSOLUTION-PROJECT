@@ -1017,6 +1017,52 @@
       "status": "confirmed",
       "orderDate": "2026-01-05T10:07:42.274Z",
       "estimatedDelivery": "2026-01-12T10:07:42.274Z"
+    },
+    {
+      "id": "ORD1767673732889688",
+      "userId": "1763984565491",
+      "userName": "samith",
+      "userEmail": "samithsamith677@gmail.com",
+      "deliveryAddress": {
+        "fullName": "samith",
+        "phoneNumber": "8078332452",
+        "email": "samithsamith677@gmail.com",
+        "addressLine1": "Koppal,muttamgate,shiriya,kumbala",
+        "addressLine2": "",
+        "city": "Bandiyod",
+        "state": "Kerala",
+        "pincode": "671322",
+        "country": "India"
+      },
+      "items": [
+        {
+          "productId": "13",
+          "productName": "SmartAqua WiFi RO",
+          "productImage": "https://m.media-amazon.com/images/I/51llNKaJLNL._AC_UY327_FMwebp_QL65_.jpg",
+          "price": 27999,
+          "quantity": 1,
+          "total": 27999
+        },
+        {
+          "productId": "2",
+          "productName": "PureFlow Mineral RO System",
+          "productImage": "https://www.lg.com/content/dam/channel/wcms/in/water-purifiers/gallery/ww156rttc/450x450.jpg/jcr:content/renditions/thum-350x350.jpeg",
+          "price": 14999,
+          "quantity": 1,
+          "total": 14999
+        }
+      ],
+      "subtotal": 42998,
+      "shipping": 0,
+      "tax": 7739.639999999999,
+      "total": 50737.64,
+      "paymentMethod": "upi",
+      "paymentDetails": {
+        "upiId": "samithsamith677-1@okicici"
+      },
+      "status": "confirmed",
+      "orderDate": "2026-01-06T04:28:52.889Z",
+      "estimatedDelivery": "2026-01-13T04:28:52.889Z"
     }
   ],
   "bookings": [
